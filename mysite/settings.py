@@ -133,3 +133,5 @@ MEDIA_ROOT = '/home/josephaw1022/mysite/media'
 MEDIA_URL = '/media/'
 STATIC_ROOT = '/home/josephaw1022/mysite/static'
 STATIC_URL = '/static/'
+
+CORS_ALLOW_ALL_ORIGINS = True
