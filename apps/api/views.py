@@ -6,8 +6,8 @@ from rest_framework import generics, status
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from django.http import Http404
-from api.models import *
-from api.serializers import *
+from .models import *
+from .serializers import *
 from rest_framework.decorators import api_view
 from rest_framework.reverse import reverse
 
@@ -72,5 +72,6 @@ class AccountDetail(APIView):
 @api_view(['GET'])
 def api_root(request, format=None):
     return Response({
-        'accounts-list': reverse('accounts-list', request=request, format=format),
+        # 'accounts-list': reverse('accounts-list', request=request, format=format),
+        'bug-list': reverse('bug-list', request=request, format=format),
     })

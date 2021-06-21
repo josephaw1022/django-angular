@@ -1,4 +1,12 @@
-django 
-djangorestframework 
-django-cors-headers 
-ng2django 
+django
+djangorestframework
+django-cors-headers
+django-debug-toolbar
+python-dotenv 
+django-split-settings
+whitenoise
+djangorestframework-api-key
+django-filter
+dynamic-rest 
+djangorestframework-word-filter
+djangorestframework-jwt

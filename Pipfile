@@ -4,10 +4,19 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
 djangorestframework = "*"
 django-cors-headers = "*"
 ng2django = "*"
+django-debug-toolbar = "*"
+python-dotenv = "*"
+django-split-settings = "*"
+whitenoise = "*"
+djangorestframework-api-key = "*"
+django-filter = "*"
+dynamic-rest = "*"
+djangorestframework-word-filter = "*"
+djangorestframework-jwt = "*"
+Django = "*"
 
 [dev-packages]
 
